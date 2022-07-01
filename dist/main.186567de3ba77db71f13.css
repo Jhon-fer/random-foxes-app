@@ -1,0 +1,97 @@
+/*!**********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/styles.css ***!
+  \**********************************************************************/
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/11e4b5f572038eaefe85.woff2) format('woff2'),
+        url(fonts/1a7f9de2a6898795b742.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-input {
+    display: flex;
+    justify-content: center;
+}
+
+.container-input button:first-child {
+    margin-right: 20px;
+}
+
+.container-input button {
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    transition: all .5s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.container-input button:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #000;
+}
+
+.container-output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 95%;
+}
+
+.container-output img {
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    transition: all .5s;
+}
+
+.container-output img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}
